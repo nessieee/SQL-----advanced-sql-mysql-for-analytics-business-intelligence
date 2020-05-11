@@ -15,6 +15,6 @@ website_sessions.utm_source = 'gsearch'
 	AND website_sessions.created_at < '2012-11-27'
 GROUP BY 
 	YEAR(website_sessions.created_at),
-    MONTH(website_sessions.created_at)
+   	MONTH(website_sessions.created_at)
 	
 ;
